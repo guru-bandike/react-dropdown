@@ -1,12 +1,12 @@
-# React Dropdown Component
+<h1 align="center" style="font-weight: bolder; color: #059d06">React Dropdown</h1>
 
-A **React Dropdown Component** that provides an interactive dropdown menu with a smooth flip animation for the dropdown arrow. This component dynamically renders dropdown options and allows users to select an option from a list.
-
----
+<p align="center">
+  <a href="https://react-dropdown-beta.vercel.app/" target="_blank">View Live App</a>
+</p>
 
 ## Project Description
 
-The **React Dropdown Component** is designed to provide a reusable and customizable dropdown menu for React applications. It supports the following features:
+**React Dropdown** that provides an interactive dropdown menu with a smooth flip animation for the dropdown arrow. This component dynamically renders dropdown options and allows users to select an option from a list.
 
 ### Key Features
 
@@ -150,4 +150,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-**Happy Coding!** 😊
+<h3 align="center" style="font-weight: bolder; color: #059d06">😊Good Luck and Happy Coding!</h3>
