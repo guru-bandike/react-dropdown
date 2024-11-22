@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import './App.css';
+import Dropdown from './components/dropdown/Dropdown';
+
+const App = () => {
+  const items = [
+    'A magical city escape 🪄',
+    'A luxurious beach resort 🏖️',
+    'A thrilling jungle safari 🐅',
+    'A cozy cabin in the mountains 🏔️',
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1>What's your dream vacation destination?</h1>
+      <Dropdown items={items} />
     </div>
   );
-}
+};
 
 export default App;
